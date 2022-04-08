@@ -17,12 +17,12 @@ int main(void)
 
 	if (n==0)
 	{
-	printf("%i is zero\n", n)
+	printf("%i is zero\n", n);
 	}
 
 	else if (n<0)
 	{
-	printf("xi is negative\n", n)
+	printf("xi is negative\n", n);
 	}
 
 	else 
