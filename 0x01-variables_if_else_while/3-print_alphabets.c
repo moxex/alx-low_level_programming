@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
- * Return: Always (Success)
+ * Return: Always(Success)
  */
-int main(void)
-{
-	char c;
-
+ int main (void)
+ {
+ 	char c;
+	
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		putchar(c);
@@ -17,7 +17,8 @@ int main(void)
 	{
 		putchar(c);
 	}
-	putchar('\n');
-	return (0);
 
+	putchar('\n');
+	
+	return (0)
 }
